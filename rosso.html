@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>Student Portfolio: Rosso Trattoria</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/main.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="css/jquery.lightbox-0.5.css"/>
+  <script type="text/javascript" charset="utf-8" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="js/jquery.lightbox-0.5.min.js"></script>
+</head>
+
+<body>
+
+<div class="nav_container">
+	<div class="bg">
+		<a href="http://ellensmithdesigns.com"><img class="logo_img" src="img/logo.svg" title="Ellen Smith Designs" /></a>
+    </div>
+	<div class="nav">
+        <div class="nav_pages">
+        	<div class="nav_social">
+            	<a href="contact-form.html"><img class="nav_img" src="img/email.svg" title="Contact Me" /></a>
+            	<a href="http://www.linkedin.com/pub/ellen-smith/9/b37/876"><img class="nav_img" src="img/linkedin.svg" title="LinkedIn" /></a>
+                <a href="http://ellensmithdesigns.blogspot.com/"><img class="nav_img" src="img/blog.svg" title="Blog" /></a>
+           	</div>
+            <div class="nav_item"><a href="marketing.html">Marketing</a></div>
+            <div class="nav_item"><a href="design.html">Design</a></div>
+            <div class="nav_item"><a href="prd_mgt.html">Product Management</a></div>
+		</div>
+	</div>
+</div>
+
+<div class="wrapper">
+    <div class="project_header">
+    	<h1>Student Portfolio</h1>
+        <div class="project_nav">
+            <a href="point.html"><img src="img/previous_2.svg"></a>
+            <p>Design Projects</p>
+            <a href="cobea.html"><img src="img/next_2.svg"></a>
+        </div>
+    </div>
+    
+	<div class="content-left">
+        <h2>Rosso Trattoria</h2>
+        <p>This project was originally an assignment to rebrand an Italian restaurant.</p>
+        <h2>Media</h2>
+        <p>Adobe Illustrator, Adobe Photoshop, CoverAction Templates</p>
+        </br>
+    </div>
+    
+    <div class="content-right">
+		<div class="photos">
+            <ul class="clearfix">
+              <li><a href="img/rosso/rosso_logo.png" rel="lightbox" title="Rosso Trattoria Logo"><img class="photos-thumb" src="img/rosso/rosso_logo_thumb.png"></a></li>
+              <li><a  href="img/rosso/rosso_menucover.png" rel="lightbox" title="Menu Cover" ><img class="photos-thumb" src="img/rosso/rosso_menucover_thumb.png"></a></li>
+              <li><a href="img/rosso/rosso_menu_spread1.png" rel="lightbox" title="Menu Page 1"><img class="photos-thumb" src="img/rosso/rosso_menu1_thumb.png"></a></li>
+              <li><a href="img/rosso/rosso_menu2.png" rel="lightbox" title="Menu Page 2"><img class="photos-thumb" src="img/rosso/rosso_menu2_thumb.png"></a></li>
+              <li><a  href="img/rosso/rosso_menu_drinks.png" rel="lightbox" title="Beer and Wine Lists" ><img class="photos-thumb" src="img/rosso/rosso_menu_drinks_thumb.png"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+    
+<script type="text/javascript">
+$(function(){
+  $('a[rel=lightbox]').lightBox({
+    containerResizeSpeed: 250,
+    fixedNavigation: true
+  });
+  $('a[rel=2ndlightbox]').lightBox({
+    overlayBgColor: '#fff',
+    overlayOpacity: 0.7
+  });
+});
+</script>
+</body>
+</html>
